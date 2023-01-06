@@ -1,43 +1,22 @@
 # UFOs_Javascript
 
 ## Objective
-Using the basic Javascript code of UFO sightings, we are tasked to add code to the existing frame in order to filter by more than just the date.
-The data is given via a script and we already have the webpage allowing us to filter by date.
-We can see that the data in the webpage (and the subsequent script) is made of lists that inventory the sightings by Date, City, State, Country, Shape (of the sighting), Duration (of the sighting). There are also a column with the comments.
-
-We have added the following filters to the webpage, city, state, country and shape.
+The purpose of this technical analysis is to fulter UFO sightings based on multuple criteria in addition to filtering by the date. The added filters include webpage, city, state, country, and shape.
 
 ## Results
+
+The results of the code allows the user to enter the values for the filter. The user is able to filter by date, 
 We are now able to filter the data, without clicking anywhere but just entering the values we want to filter by in the cases.
 
-For example, if we filter by date only (1/10/2020), we can see that there are 11 entries.
-![image](https://user-images.githubusercontent.com/75656368/210272061-1858fd95-d26a-4e2a-a76e-147c5dcd9939.png)
-
-None of these 11 entries are in Canada.
-![image](https://user-images.githubusercontent.com/75656368/210272083-5bd15b03-e8df-4f68-8b97-556d22360830.png)
-
-However, there were 2 sightings in Canada, as shown when we delete the entry in "Date" filter.
-![image](https://user-images.githubusercontent.com/75656368/210272104-5f0c98bc-e7ea-4cd0-b04b-7cc917618139.png)
-
-Lastly, 5 entries were for Disk Shape. But the shape with the most entry is "light".
-![image](https://user-images.githubusercontent.com/75656368/210272198-ffcc2480-58be-4634-a020-f20e8e692e3e.png)
-
-
 ## Summary
-### Inconvenient:
-One drawback of this webpage is that it's lenghty. We have to scroll back and there is no summary data.
-It would have been good to add another square in the storyboard (before the data). To have the summary of the data below.
+
+One drawback of the result of the code is that the html page is hard to read. The results are long, and it is hard to understand the trends in the results. 
 
 ### Recommendations:
-We recommend Dana to add a summary table at the top (prior to the data). With the following values:
-number of sightings: Count(rows)
-How many cities: count_distinct(rows on City)
-Avg Duration: Mean(Duration)
 
-These values should also be taken into account whilst filters are applied.
+A recommendation for the drawback would be to add a summary table to help understand the results of the filter which includes the number of sightings, the number of cities, and the average duration of the sightings. 
 
-Additionally, it would be interesting to have formatting on the comments to pull the most quoted sentences/text and add to the top of the webpage to entice the reader. 
+Our second recommendation would be to allow dynamic filters to include or remove specific filters without it having to be sequential. 
 
-Lastly, allowing multiple values in the filters (separated by commas) would also be useful as the data expands.
 
 
